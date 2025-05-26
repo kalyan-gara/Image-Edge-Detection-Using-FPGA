@@ -1,4 +1,4 @@
-# 🖼️ # Image-Edge-Detection-Using-FPGA
+# Image-Edge-Detection-Using-FPGA
 
 This project implements edge detection on a pre-processed grayscale image using a **3x3 Median Filter** followed by a **Sobel Operator**, entirely designed in **Verilog** and deployed on a **Nexys A7 FPGA**.
 
@@ -49,7 +49,7 @@ Image-Edge-Detection-Using-FPGA/
 
 ## 🚀 Future Work
 
-Although input data was preloaded and not captured in real time, this project showcases how low-latency FPGA-based systems** can efficiently perform image processing. This paves the way for:
+Although input data was preloaded and not captured in real time, this project showcases how low-latency FPGA-based systems can efficiently perform image processing. This paves the way for:
 - Real-time image capture and processing
 - Edge-based feature extraction for computer vision
 - Fully pipelined video processing pipelines
