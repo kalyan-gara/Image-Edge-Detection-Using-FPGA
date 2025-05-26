@@ -25,26 +25,27 @@ This project implements edge detection on a pre-processed grayscale image using 
 - Targeted hardware: **Nexys A7 FPGA**
 - Functional verification done via **testbenches and waveform analysis**
 
-## 📁 Repository Structure
+### 📁 **Repository Structure**
+
+```
 Image-Edge-Detection-Using-FPGA/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-│
-├── src/ # Verilog source files
-│ ├── sobel_operator.v
-│ ├── median_filter.v
-│ ├── top_module.v
-│ └── vga_controller.v
-│
-├── sim/ # Simulation testbenches
-│ └── tb_top_module.v
-│
-├── images/ # Image data and outputs
-│ ├── input/
-│ ├── median_output/
-│ ├── sobel_output/
-│ └── vga_output/
+├── src/                # Verilog source files
+│   ├── sobel_operator.v
+│   ├── median_filter.v
+│   ├── top_module.v
+│   └── vga_controller.v
+├── sim/                # Simulation testbenches
+│   └── tb_top_module.v
+├── images/             # Image data and outputs
+│   ├── input/
+│   ├── median_output/
+│   ├── sobel_output/
+│   └── vga_output/
+```
+
 
 
 ## 🚀 Future Work
